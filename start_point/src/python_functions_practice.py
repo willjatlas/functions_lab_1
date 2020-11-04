@@ -27,6 +27,10 @@ def length_of_string(input_string):
 def join_string(string_1, string_2):
     return string_1 + string_2
 
+# Function that take two strings of number value args and returns the sum as an int.
+def add_string_as_number(string_1, string_2):
+    return int(string_1) + int(string_2)
+
 
 
 

@@ -19,4 +19,9 @@ def multiply(num_1, num_2):
 def divide(num_1, num_2):
     return num_1 / num_2 
 
+# Function that returns the lenght of an string arg. 
+def length_of_string(input_string):
+    return len(input_string)
+
+
 

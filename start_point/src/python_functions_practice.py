@@ -1,3 +1,4 @@
+# Codeclan Functions Lab 1 
 import calendar
 
 # Function that returns an int of value 10. 
@@ -36,13 +37,23 @@ def add_string_as_number(string_1, string_2):
 # Function that returns the name of a month given an int arg of 
 # it's place in a year (i.e 1-12)
 def number_to_full_month_name(int_month):
+    # Using calendar from python lib, rather than making an array
+    #  and checking each month name element.
     return calendar.month_name[int_month]
 
 # Function that returns an abbrieviated version of the number_to_full_month_name function.
 def number_to_short_month_name(int_month):
     month_name = calendar.month_name[int_month]
+    # Truncate the string down to 3 characters.
     output = month_name[:3]
     return output
+
+# Function that returns the volume of a cube given an int arg for one edge.
+def volume_of_cube(int_edge):
+    output = str(int_edge * 3) + " m^3"
+    return output 
+
+
  
 
 

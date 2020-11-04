@@ -38,6 +38,13 @@ def add_string_as_number(string_1, string_2):
 def number_to_full_month_name(int_month):
     return calendar.month_name[int_month]
 
+# Function that returns an abbrieviated version of the number_to_full_month_name function.
+def number_to_short_month_name(int_month):
+    month_name = calendar.month_name[int_month]
+    output = month_name[:3]
+    return output
+ 
+
 
 
 

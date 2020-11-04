@@ -6,4 +6,8 @@ def return_10():
 def add(num_1, num_2):
     return num_1 + num_2
 
- 
+# Subtract function that returns the sub of two int args.
+""" Note, order of args is important to returned value """ 
+def subtract(num_1, num_2):
+    return num_1 - num_2
+

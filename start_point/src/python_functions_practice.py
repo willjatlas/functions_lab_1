@@ -53,6 +53,13 @@ def volume_of_cube(int_edge):
     output = str(int_edge * 3) + " m^3"
     return output 
 
+# Function for reversing a string arg.
+def reverse_string(input_string):
+    return input_string[::-1]
+
+# Function that given a value in farenheit, converts it into celsius. Hoooooot Stuuuuufffffff
+def farenheit_to_celsius(input_far):
+    return (input_far - 32) * (5/9)
 
  
 

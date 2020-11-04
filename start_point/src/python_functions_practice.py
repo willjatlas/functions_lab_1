@@ -23,5 +23,10 @@ def divide(num_1, num_2):
 def length_of_string(input_string):
     return len(input_string)
 
+# Function that concatenates two string args.
+def join_string(string_1, string_2):
+    return string_1 + string_2
+
+
 
 
